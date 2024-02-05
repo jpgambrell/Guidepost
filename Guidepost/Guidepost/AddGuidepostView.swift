@@ -21,7 +21,17 @@ struct AddGuidepostView: View {
                 .scaledToFit()
                 .frame(width: 300, height: 300)
             Spacer()
-            PhotosPicker("Select Image My Guy", selection: $avatarItem, matching: .images)
+//            PhotosPicker("Select Image My Guy", selection: $avatarItem, matching: .images)
+            PhotosPicker(selection: $avatarItem,
+                                matching: .images) {
+               Image(systemName: "star")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    
+                       //Text("Select Photos")
+                   }
+            
+        
          
             Spacer()
     
