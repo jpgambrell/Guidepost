@@ -1,0 +1,151 @@
+2024-01-08 22:03:41 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x11681d880; archive(resolved)="<IDEArchive: 0x600003a7ff00>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team(resolved)="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	Chain (15, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x11681d880; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x11681d5e0; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x12f6ffdb0; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x12f713770; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x13000beb0; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x13000bc80; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x13010d6d0; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x109e1f6d0; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x13010d4a0; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x13000ba50; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x12f7128c0; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x1300094f0; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x12f712160; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="<IDEProvisioningBasicTeam: 0x600001f41d80; teamID='AZT9X443J9', teamName='(null)'>">
+	<IDEDistributionContext: 0x130290a30; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0x600001c89ed0>", team="(null)">
+	<IDEDistributionContext: 0x12f6d61b0; archive = "<IDEArchive: 0x600003a7ff00>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x11681d880>
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2024-01-08 22:03:41 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/johngambrell/Github/Guidepost/Guidepost/Archive/Guidepost2024.xcarchive/Products/Applications/Guidepost.app' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root/Payload/Guidepost.app'
+2024-01-08 22:03:41 +0000  >>> Copying /Users/johngambrell/Github/Guidepost/Guidepost/Archive/Guidepost2024.xcarchive/Products/Applications/Guidepost.app 
+2024-01-08 22:03:41 +0000  copying file ./_CodeSignature/CodeResources ... 
+2024-01-08 22:03:41 +0000  2111 bytes for ./_CodeSignature/CodeResources
+2024-01-08 22:03:41 +0000  copying file ./Guidepost ... 
+2024-01-08 22:03:41 +0000  121920 bytes for ./Guidepost
+2024-01-08 22:03:41 +0000  copying file ./embedded.mobileprovision ... 
+2024-01-08 22:03:41 +0000  12069 bytes for ./embedded.mobileprovision
+2024-01-08 22:03:41 +0000  copying file ./Info.plist ... 
+2024-01-08 22:03:41 +0000  1256 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2024-01-08 22:03:41 +0000  8 bytes for ./PkgInfo
+2024-01-08 22:03:41 +0000 [MT] /usr/bin/ditto exited with 0
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2024-01-08 22:03:41 +0000 [MT] Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionItemRemovalStep
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2024-01-08 22:03:41 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2024-01-08 22:03:41 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2024-01-08 22:03:41 +0000 [MT] Processing symbols for Guidepost.app
+2024-01-08 22:03:41 +0000 [MT] Running /usr/bin/rsync '-8aPhhE' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root/Payload/Guidepost.app' '--link-dest' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root/Payload' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00'
+2024-01-08 22:03:41 +0000  building file list ... 
+2024-01-08 22:03:41 +0000   0 files...2024-01-08 22:03:41 +0000  7 files to consider
+2024-01-08 22:03:41 +0000  Guidepost.app/
+2024-01-08 22:03:41 +0000  Guidepost.app/_CodeSignature/
+2024-01-08 22:03:41 +0000  
+2024-01-08 22:03:41 +0000  sent 265 bytes  received 32 bytes  594.00 bytes/sec
+total size is 134.14K  speedup is 462.51
+2024-01-08 22:03:41 +0000 [MT] /usr/bin/rsync exited with 0
+2024-01-08 22:03:41 +0000 [MT] Running /usr/bin/rsync '-8aPhhE' '/Users/johngambrell/Github/Guidepost/Guidepost/Archive/Guidepost2024.xcarchive/dSYMs/' '--link-dest' '/Users/johngambrell/Github/Guidepost/Guidepost/Archive/Guidepost2024.xcarchive/dSYMs/' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00'
+2024-01-08 22:03:41 +0000  building file list ... 
+2024-01-08 22:03:41 +0000   0 files...2024-01-08 22:03:41 +0000  10 files to consider
+2024-01-08 22:03:41 +0000  ./
+2024-01-08 22:03:41 +0000  Guidepost.app.dSYM/
+Guidepost.app.dSYM/Contents/
+Guidepost.app.dSYM/Contents/Resources/
+Guidepost.app.dSYM/Contents/Resources/DWARF/
+Guidepost.app.dSYM/Contents/Resources/Relocations/
+Guidepost.app.dSYM/Contents/Resources/Relocations/aarch64/
+2024-01-08 22:03:41 +0000  
+2024-01-08 22:03:41 +0000  sent 326 bytes  received 62 bytes  776.00 bytes/sec
+total size is 1.09M  speedup is 2945.18
+2024-01-08 22:03:41 +0000 [MT] /usr/bin/rsync exited with 0
+2024-01-08 22:03:41 +0000 [MT] Writing /var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Symbols/7FA1B716-CA0F-3B50-BAF0-054AB5853D13.symbols
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionCopyAppleProvidedContentStep
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2024-01-08 22:03:41 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2024-01-08 22:03:41 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root/Payload/Guidepost.app/Guidepost' '-verify_arch' 'arm64e'
+2024-01-08 22:03:41 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2024-01-08 22:03:41 +0000 [MT] Skipping architecture thinning for item "Guidepost" because arch "arm64e" wasn't found
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionODRStep
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2024-01-08 22:03:41 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2024-01-08 22:03:41 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2024-01-08 22:03:41 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003a07840; bundleID='com.gambrell.Guidepost2024', path='<DVTFilePath:0x60000357baa0:'/Users/johngambrell/Github/Guidepost/Guidepost/Archive/Guidepost2024.xcarchive/Products/Applications/Guidepost.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003ec91d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002bda940; name='iPhone Distribution: John Gambrell (AZT9X443J9)', hash='C1ACF75F2427E9E7019C5A6D9C58C28BB4CBC138', serialNumber='1D3B93B4C6445E389B6B7E8FBAACC2C5', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-03-03 19:25:20 +0000''>', entitlements='{
+    "application-identifier" = "AZT9X443J9.com.gambrell.Guidepost2024";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = AZT9X443J9;
+    "get-task-allow" = 0;
+}', teamID='AZT9X443J9', identifier='com.gambrell.Guidepost2024', executablePath='<DVTFilePath:0x600003500690:'/Users/johngambrell/Github/Guidepost/Guidepost/Archive/Guidepost2024.xcarchive/Products/Applications/Guidepost.app/Guidepost'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "AZT9X443J9.com.gambrell.Guidepost2024";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = AZT9X443J9;
+    "get-task-allow" = 0;
+}
+2024-01-08 22:03:41 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2024-01-08 22:03:41 +0000 [MT] Entitlements for <IDEDistributionItem: 0x600003a07840; bundleID='com.gambrell.Guidepost2024', path='<DVTFilePath:0x60000357baa0:'/Users/johngambrell/Github/Guidepost/Guidepost/Archive/Guidepost2024.xcarchive/Products/Applications/Guidepost.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003ec91d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002bd6f40; name='iPhone Distribution: John Gambrell (AZT9X443J9)', hash='C1ACF75F2427E9E7019C5A6D9C58C28BB4CBC138', serialNumber='1D3B93B4C6445E389B6B7E8FBAACC2C5', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-03-03 19:25:20 +0000''>', entitlements='{
+    "application-identifier" = "AZT9X443J9.com.gambrell.Guidepost2024";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = AZT9X443J9;
+    "get-task-allow" = 0;
+}', teamID='AZT9X443J9', identifier='com.gambrell.Guidepost2024', executablePath='<DVTFilePath:0x600003500690:'/Users/johngambrell/Github/Guidepost/Guidepost/Archive/Guidepost2024.xcarchive/Products/Applications/Guidepost.app/Guidepost'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "AZT9X443J9.com.gambrell.Guidepost2024";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = AZT9X443J9;
+    "get-task-allow" = 0;
+}
+2024-01-08 22:03:41 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x600003a07840; bundleID='com.gambrell.Guidepost2024', path='<DVTFilePath:0x60000357baa0:'/Users/johngambrell/Github/Guidepost/Guidepost/Archive/Guidepost2024.xcarchive/Products/Applications/Guidepost.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x600003ec91d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x600002bda1c0; name='iPhone Distribution: John Gambrell (AZT9X443J9)', hash='C1ACF75F2427E9E7019C5A6D9C58C28BB4CBC138', serialNumber='1D3B93B4C6445E389B6B7E8FBAACC2C5', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2023-03-03 19:25:20 +0000''>', entitlements='{
+    "application-identifier" = "AZT9X443J9.com.gambrell.Guidepost2024";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = AZT9X443J9;
+    "get-task-allow" = 0;
+}', teamID='AZT9X443J9', identifier='com.gambrell.Guidepost2024', executablePath='<DVTFilePath:0x600003500690:'/Users/johngambrell/Github/Guidepost/Guidepost/Archive/Guidepost2024.xcarchive/Products/Applications/Guidepost.app/Guidepost'>', hardenedRuntime='0'>'> to: /var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/entitlements~~~kSeVJG
+2024-01-08 22:03:41 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'C1ACF75F2427E9E7019C5A6D9C58C28BB4CBC138' '--entitlements' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/entitlements~~~kSeVJG' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root/Payload/Guidepost.app'
+2024-01-08 22:03:42 +0000  /var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root/Payload/Guidepost.app: replacing existing signature
+2024-01-08 22:03:42 +0000  /var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root/Payload/Guidepost.app: signed app bundle with Mach-O thin (arm64) [com.gambrell.Guidepost2024]
+2024-01-08 22:03:42 +0000 [MT] /usr/bin/codesign exited with 0
+2024-01-08 22:03:42 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2024-01-08 22:03:42 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2024-01-08 22:03:42 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2024-01-08 22:03:42 +0000 [MT] Running /usr/bin/rsync '-8aPhhE' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Symbols' '--link-dest' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root'
+2024-01-08 22:03:42 +0000  building file list ... 
+2024-01-08 22:03:42 +0000   0 files...2024-01-08 22:03:42 +0000  2 files to consider
+2024-01-08 22:03:42 +0000  Symbols/
+2024-01-08 22:03:42 +0000  
+sent 149 bytes  received 26 bytes  350.00 bytes/sec
+2024-01-08 22:03:42 +0000  total size is 60.32K  speedup is 352.94
+2024-01-08 22:03:42 +0000 [MT] /usr/bin/rsync exited with 0
+2024-01-08 22:03:42 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root' '/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Packages/Guidepost.ipa'
+2024-01-08 22:03:42 +0000  >>> Copying /var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root 
+2024-01-08 22:03:42 +0000  copying file ./Payload/Guidepost.app/_CodeSignature/CodeResources ... 
+2024-01-08 22:03:42 +0000  2111 bytes for ./Payload/Guidepost.app/_CodeSignature/CodeResources
+2024-01-08 22:03:42 +0000  copying file ./Payload/Guidepost.app/Guidepost ... 
+2024-01-08 22:03:42 +0000  121920 bytes for ./Payload/Guidepost.app/Guidepost
+copying file ./Payload/Guidepost.app/embedded.mobileprovision ... 
+2024-01-08 22:03:42 +0000  12069 bytes for ./Payload/Guidepost.app/embedded.mobileprovision
+copying file ./Payload/Guidepost.app/Info.plist ... 
+2024-01-08 22:03:42 +0000  1256 bytes for ./Payload/Guidepost.app/Info.plist
+2024-01-08 22:03:42 +0000  copying file ./Payload/Guidepost.app/PkgInfo ... 
+2024-01-08 22:03:42 +0000  8 bytes for ./Payload/Guidepost.app/PkgInfo
+2024-01-08 22:03:42 +0000  copying file ./Symbols/7FA1B716-CA0F-3B50-BAF0-054AB5853D13.symbols ... 
+2024-01-08 22:03:42 +0000  61764 bytes for ./Symbols/7FA1B716-CA0F-3B50-BAF0-054AB5853D13.symbols
+2024-01-08 22:03:42 +0000 [MT] /usr/bin/ditto exited with 0
+2024-01-08 22:03:42 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2024-01-08 22:03:42 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2024-01-08 22:03:42 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2024-01-08 22:03:42 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x600003566d10:'/var/folders/tj/y3xryj19733cp6rpmnp9mqwc0000gp/T/XcodeDistPipeline.~~~g9xK00/Root/Payload/Guidepost.app'>
+2024-01-08 22:03:42 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2024-01-08 22:03:42 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so

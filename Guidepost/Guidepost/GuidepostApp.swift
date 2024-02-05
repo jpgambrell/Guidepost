@@ -11,7 +11,7 @@ import SwiftUI
 struct GuidepostApp: App {
     var body: some Scene {
         WindowGroup {
-            Homelanding()
+            HomelandingView()
         }
     }
 }

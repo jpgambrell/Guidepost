@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015452412B0299BA00DD9BC9 /* GuidepostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015452402B0299BA00DD9BC9 /* GuidepostDetailView.swift */; };
+		017126152B604E5900C4A549 /* AddGuidepostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017126142B604E5900C4A549 /* AddGuidepostView.swift */; };
+		01893B432B630E04008E2745 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01893B422B630E04008E2745 /* PhotoPickerView.swift */; };
+		018E60D12B5F059200ED3FFF /* GPData.json in Resources */ = {isa = PBXBuildFile; fileRef = 018E60D02B5F059200ED3FFF /* GPData.json */; };
+		018E60D32B5F07A800ED3FFF /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018E60D22B5F07A800ED3FFF /* Helper.swift */; };
 		01B9DFAD2AE18FA600B2091D /* GuidepostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9DFAC2AE18FA600B2091D /* GuidepostApp.swift */; };
-		01B9DFAF2AE18FA600B2091D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9DFAE2AE18FA600B2091D /* ContentView.swift */; };
 		01B9DFB12AE18FA700B2091D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B9DFB02AE18FA700B2091D /* Assets.xcassets */; };
 		01B9DFB42AE18FA700B2091D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B9DFB32AE18FA700B2091D /* Preview Assets.xcassets */; };
-		01B9DFBB2AE1904600B2091D /* Homelanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9DFBA2AE1904600B2091D /* Homelanding.swift */; };
+		01B9DFBB2AE1904600B2091D /* HomelandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9DFBA2AE1904600B2091D /* HomelandingView.swift */; };
+		01B9DFC32AE1A26D00B2091D /* GuidepostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9DFC22AE1A26D00B2091D /* GuidepostModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		015452402B0299BA00DD9BC9 /* GuidepostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidepostDetailView.swift; sourceTree = "<group>"; };
+		017126142B604E5900C4A549 /* AddGuidepostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuidepostView.swift; sourceTree = "<group>"; };
+		01893B422B630E04008E2745 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		018E60D02B5F059200ED3FFF /* GPData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GPData.json; sourceTree = "<group>"; };
+		018E60D22B5F07A800ED3FFF /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		01B9DFA92AE18FA600B2091D /* Guidepost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Guidepost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B9DFAC2AE18FA600B2091D /* GuidepostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidepostApp.swift; sourceTree = "<group>"; };
-		01B9DFAE2AE18FA600B2091D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01B9DFB02AE18FA700B2091D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01B9DFB32AE18FA700B2091D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		01B9DFBA2AE1904600B2091D /* Homelanding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homelanding.swift; sourceTree = "<group>"; };
+		01B9DFBA2AE1904600B2091D /* HomelandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomelandingView.swift; sourceTree = "<group>"; };
+		01B9DFC22AE1A26D00B2091D /* GuidepostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidepostModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +63,15 @@
 		01B9DFAB2AE18FA600B2091D /* Guidepost */ = {
 			isa = PBXGroup;
 			children = (
+				01B9DFBA2AE1904600B2091D /* HomelandingView.swift */,
+				017126142B604E5900C4A549 /* AddGuidepostView.swift */,
+				015452402B0299BA00DD9BC9 /* GuidepostDetailView.swift */,
+				01893B422B630E04008E2745 /* PhotoPickerView.swift */,
+				01B9DFBF2AE1A1C900B2091D /* Models */,
 				01B9DFAC2AE18FA600B2091D /* GuidepostApp.swift */,
-				01B9DFAE2AE18FA600B2091D /* ContentView.swift */,
-				01B9DFBA2AE1904600B2091D /* Homelanding.swift */,
+				018E60D22B5F07A800ED3FFF /* Helper.swift */,
 				01B9DFB02AE18FA700B2091D /* Assets.xcassets */,
+				018E60D02B5F059200ED3FFF /* GPData.json */,
 				01B9DFB22AE18FA700B2091D /* Preview Content */,
 			);
 			path = Guidepost;
@@ -68,6 +83,14 @@
 				01B9DFB32AE18FA700B2091D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01B9DFBF2AE1A1C900B2091D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				01B9DFC22AE1A26D00B2091D /* GuidepostModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,7 +121,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					01B9DFA82AE18FA600B2091D = {
 						CreatedOnToolsVersion = 14.3;
@@ -130,6 +153,7 @@
 			files = (
 				01B9DFB42AE18FA700B2091D /* Preview Assets.xcassets in Resources */,
 				01B9DFB12AE18FA700B2091D /* Assets.xcassets in Resources */,
+				018E60D12B5F059200ED3FFF /* GPData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B9DFAF2AE18FA600B2091D /* ContentView.swift in Sources */,
+				017126152B604E5900C4A549 /* AddGuidepostView.swift in Sources */,
+				015452412B0299BA00DD9BC9 /* GuidepostDetailView.swift in Sources */,
+				01B9DFC32AE1A26D00B2091D /* GuidepostModel.swift in Sources */,
 				01B9DFAD2AE18FA600B2091D /* GuidepostApp.swift in Sources */,
-				01B9DFBB2AE1904600B2091D /* Homelanding.swift in Sources */,
+				01B9DFBB2AE1904600B2091D /* HomelandingView.swift in Sources */,
+				01893B432B630E04008E2745 /* PhotoPickerView.swift in Sources */,
+				018E60D32B5F07A800ED3FFF /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +181,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -185,6 +214,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -199,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -213,6 +243,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -245,6 +276,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -253,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -268,10 +300,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Guidepost/Preview Content\"";
-				DEVELOPMENT_TEAM = S2ZGLJF9S4;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = AZT9X443J9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,8 +318,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gambrell.Guidepost;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gambrell.Guidepost2024;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = GuidepostProvProfile2024;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,10 +333,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Guidepost/Preview Content\"";
-				DEVELOPMENT_TEAM = S2ZGLJF9S4;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = AZT9X443J9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -313,8 +351,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gambrell.Guidepost;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gambrell.Guidepost2024;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = GuidepostProvProfile2024;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
